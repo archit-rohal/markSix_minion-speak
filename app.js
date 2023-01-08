@@ -13,6 +13,7 @@ function clickHandeler(){
     var inputText = txtInput.value;
 
     fetch(getTranslationURL(inputText)) //Here getTranslation is first called and the program - flow has shifted upwards to the function
+        .then(response => response.json())
         .then(json => {                 
             var translatedText = json.contents.translated;
             outputDiv.innerText = translatedText;

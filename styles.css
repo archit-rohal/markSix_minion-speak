@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Indie+Flower&display=swap');
+body {
+    margin: 0px 0px;
+    font-family: 'Handlee', cursive;
+    font-family: 'Indie Flower', cursive;
+}
+#txt-input {
+            width: 80%;
+            height: 10vh;
+            display: block;
+            padding: 1rem;
+            margin: 1rem;
+        }
+#output {
+            border: 1px solid black;
+            height: 10vh;
+            width: 80%;
+            margin: 1rem; 
+            padding: 1rem;
+        }
+#title h1 {
+    background-color: yellow;
+    margin: 0px;
+    text-align: center;
+    color: #3b82f6;
+    padding: 1rem;
+    font-size: 55px;
+}
+#here {
+    font-size: 20px; 
+    color: #3b82f6;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+#btn-translate {
+    color: #3b82f6;
+    background-color: yellow;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 1rem;
+    padding: 0.5rem;
+}
+#about {
+    background-color: yellow;
+    color:#3b82f6;
+    margin-bottom: 0px;
+    margin-top:18rem;
+    text-align: center;
+    font-size: 32px;
+}
+#speak {
+    background-color: yellow;
+    font-size: larger;
+    font-weight: bold;
+    margin: 0px;
+    color:#3b82f6;
+    text-align: center;
+    padding-bottom: 6rem;
+}
